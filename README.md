@@ -13,7 +13,7 @@ Add the GitHub Packages repository and dependency to your microservice's `pom.xm
     <repository>
         <id>github</id>
         <name>GitHub SettleHub Apache Maven Packages</name>
-        <url>[https://maven.pkg.github.com/SettleHub/settlehub-health](https://maven.pkg.github.com/SettleHub/settlehub-health)</url>
+        <url>https://maven.pkg.github.com/SettleHub/health-common</url>
     </repository>
 </repositories>
 ```
@@ -47,4 +47,4 @@ public class MicroserviceApplication {
 ```
 
 > [!NOTE]
-> The library uses the spring.application.name property from your application.yml to identify the service in responses.
+> The library uses the `spring.application.name` property from your `application.yml` or `application.properties` to identify the service in responses.
