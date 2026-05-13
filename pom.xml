@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>org.settlehub.commons</groupId>
 	<artifactId>health</artifactId>
-	<version>0.0.1-DEV</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<name>health-common</name>
 	<description>Health Check Library with a Simple Annotation</description>
 	<url/>

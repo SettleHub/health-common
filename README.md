@@ -24,7 +24,7 @@ Add the GitHub Packages repository and dependency to your microservice's `pom.xm
 <dependency>
     <groupId>org.settlehub.commons</groupId>
     <artifactId>health</artifactId>
-    <version>0.0.1-DEV</version>
+    <version>0.0.1-SNAPSHOT</version>
 </dependency>
 ```
 
