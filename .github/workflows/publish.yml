@@ -27,7 +27,7 @@ jobs:
           server-password: GITHUB_TOKEN
 
       - name: Build, Test and Publish
-        run: mvn clean deploy
+        run: ./mvnw clean deploy
         env:
           GITHUB_ACTOR: ${{ github.actor }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
